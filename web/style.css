@@ -1,0 +1,147 @@
+nav {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: lightcoral;
+  padding: 15px;
+  float: left;
+}
+
+a:hover {
+  background-color: burlywood;
+}
+
+body {
+  margin-top: 7%;
+}
+
+.main-header {
+  background-color: lightcyan;
+  padding-left: 10px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+}
+
+.header-info {
+  text-align: left;
+  color: rgb(219, 84, 75);
+  padding: 0px;
+  margin: 14px;
+  position: absolute;
+  left: 0px;
+}
+
+* {
+  color: #d1471c;
+  border-color: #87c641;
+}
+
+h1 {
+  font-size: x-large;
+  width: full;
+  height: auto;
+}
+
+body {
+  background-color: #fffff7;
+}
+
+.center {
+  text-align: center;
+}
+
+.fancy {
+  text-shadow: 2px 2px 3px green;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-content {
+  display: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%;
+  background-color: antiquewhite;
+}
+.dropdown-item:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+a.dropdown-item {
+  min-width: 160px;
+  text-align: left;
+}
+
+li.dropdown-item:hover a.dropdown-item {
+  text-align: left;
+  color: gainsboro;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.portrait {
+  max-width: 100%;
+  max-height: 100%;
+}
+.item h3,
+p {
+  text-align: center;
+  padding: 5px;
+  color: steelblue;
+}
+
+div.about {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  background-color: blanchedalmond;
+  width: 80%;
+}
+.about {
+  text-align: left;
+  color: black;
+  padding: 10px;
+  width: 100%;
+}
+div.image-about {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+img.about-us {
+  max-width: 100%;
+  width: 450px;
+  max-height: 100%;
+}
